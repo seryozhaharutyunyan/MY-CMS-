@@ -1,0 +1,28 @@
+{
+    "name": "vendor/cms",
+    "description": "cms",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Excaptions\\": "Exceptions/",
+            "Rout\\": "Rout/",
+            "Request\\": "Request/",
+            "File\\": "File/",
+            "Database\\": "Database/",
+            "Singleton\\": "Singleton/",
+            "Plugins\\": "Plugins/",
+            "Session\\": "Session/",
+            "Vendor\\": "Vendor/",
+            "Response\\": "Response/"
+        }
+    },
+    "authors": [
+        {
+            "name": "seryozha"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-curl": "*"
+    }
+}
